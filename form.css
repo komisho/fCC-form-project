@@ -1,0 +1,100 @@
+body {
+    width:100%;
+    background-color:#432E36;
+  }
+  
+  .heading {
+    text-align:center;
+    color:white;
+  }
+  
+  h1 {
+    margin: 2rem 0 -1rem 0
+  }
+  
+  .wrapper {
+    min-width:200px;
+    max-width:500px;
+    width:80vw;
+    margin: 0 auto;
+    padding:2em;
+    background-color:#260C1A;
+    border-radius:5px;
+  }
+  
+  input, select, textarea {
+    width:100%;
+    margin: 0.5em -0.4em;
+    padding:0.5em 0 0.5em 0.5em;
+    border-radius:7px;
+    background-color:#432E36;
+    border:none;
+    color:white;
+  }
+  
+  select {
+    width:102%;
+  }
+  
+  button {
+    margin:0.5em 0.5em;
+    width:95%;
+    padding:0.5em;
+    background-color:#66A182;
+    color:white;
+    font-weight:bold;
+  }
+  
+  button:hover {
+    cursor:pointer;
+  }
+  
+  label {
+    color:white;
+    display:block;
+    padding: 0.5em 0;
+  }
+  
+  .inline {
+    margin:0 0.5em 0 0;
+    vertical-align:middle;
+    width:unset;
+  }
+  
+  fieldset {
+    border-style:none;
+  }
+  
+  fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #432E36;
+  }
+  
+  textarea {
+    min-height:2em;
+    height:10em;
+  }
+  
+  input[type="checkbox"]:hover, input[type="radio"], select {
+    cursor:pointer;
+  }
+  
+  ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    color: white;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+     opacity:10%;
+    transition:0.2s;
+  }
+  input:focus::placeholder, textarea:focus::placeholder {
+    opacity:10%;
+  }

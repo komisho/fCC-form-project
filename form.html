@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+
+  <body>
+    <div class="heading">
+    <h1 id="title">The Great Form of Stuff</h1>
+    <p id="description">this is in fact stuff!</p>
+</div>
+<div class="wrapper">
+  <!--Info-->
+    <form id="survey-form">
+<fieldset>
+      <label id="name-label">Name <input required placeholder="Enter your name" type="text" id="name" /></label>
+      <label id="email-label">Email <input placeholder="We might sell this for profit..." required type="email" id="email" /></label>
+      <label id="number-label">Age <input required placeholder="Age is just a number, but we need it" type="number" id="number" min="0" max="120"/></label>
+</fieldset>
+
+<!--Dropdown Menu-->
+<fieldset>
+      <label>Pick a fruit:
+      <select id="dropdown">
+        <option value="">Select one!</option>
+        <option value="1">Bananas</option>
+        <option value="2">Apples</option>
+        <option value="3">Pineapples</option>
+      </select>
+        </label>
+</fieldset>
+<!--Radio Buttons-->
+<fieldset class="radios">
+    <label>Pen Pineapple Apple Pen?</label>
+      <label><input value="1" class="inline" type="radio" name="pineapplepen" />Pen</label>
+      <label><input value="2" class="inline" type="radio" name="pineapplepen" />Pineapple</label>
+      <label><input value="3" class="inline" type="radio" name="pineapplepen" />Apple</label>
+</fieldset>
+
+<!--Checkboxes? Check-->
+<fieldset>
+  <label>Do you like me?</label>
+    <label><input class="inline" type="checkbox" value="1"/>lol no</label>
+    <label><input class="inline" type="checkbox" value="2"/>b-b-baka...</label>
+</fieldset>
+<fieldset>
+  <label>I'm running out of witty one liners... help?</label>
+  <textarea placeholder="Hit me with your sweat socks."></textarea>
+  </fieldset>
+  <button id="submit" type="submit">SEND ME OFF CAPTAIN!</button>
+    </form>
+</div>
+  </body>
+</html>
